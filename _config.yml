@@ -91,3 +91,6 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/yosimasu/yosimasu.github.io.git
+
+# Draft Setting
+render_drafts: true
