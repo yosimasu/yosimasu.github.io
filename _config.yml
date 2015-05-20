@@ -8,7 +8,7 @@ subtitle: 一支程式的天荒地老
 description:
 author: Masu
 email: masu@yosimasu.com
-language: zh-TW
+language: zh-tw
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -41,7 +41,7 @@ highlight:
   line_number: true
   tab_replace:
 permalink_defaults:
-  lang: tw
+  lang: zh-tw
 
 # Category & Tag
 default_category: uncategorized
@@ -89,8 +89,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: https://github.com/yosimasu/yosimasu.github.io.git
-
-# Draft Setting
-render_drafts: true
+  type: git
+  repo:
+    github: https://github.com/yosimasu/yosimasu.github.io.git
